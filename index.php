@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Full-Stack Developer, UI UX Designer, Web Developer, Branding Expert, SEO Specialist, Frontend Developer, Backend Developer, Website Design, App Development, Chaitra Portfolio, Web Design Dubai, Web Design Mumbai, Digital Marketing, Personal Branding, Creative Developer">
+    <meta name="description" content="Chaitra is a full-stack developer and visual designer specializing in frontend, backend, UI/UX, branding, and SEO. Delivering seamless, high-performing websites and powerful digital experiences.">
+    <meta name="author" content="Chaitra">
+    <title>thegeekscript</title>
+    <link rel="shortcut icon" href="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751131449/favicon_qcyswe.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/plugins.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .logo{ font-family: 'Sora', sans-serif; font-weight: 600; font-size: 20px;}
+    </style>
+</head>
+
+<body class="home-freelancer main-bg">
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>o</span>
+                <span>a</span>
+                <span>d</span>
+                <span>i</span>
+                <span>n</span>
+                <span>g</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <div id="smooth-wrapper">
+
+        <nav class="navbar navbar-expand-lg main-bg">
+            <div class="container">
+
+                <a class="logo" href="index.php">>_thegeekscript
+                    <!-- <img src="" alt="logo"> -->
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-scroll-nav="0"><span class="rolling-text">Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-scroll-nav="1"><span
+                                    class="rolling-text">Services</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-scroll-nav="2"><span
+                                    class="rolling-text">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-scroll-nav="3"><span
+                                    class="rolling-text">Portfolio</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-scroll-nav="7"><span
+                                    class="rolling-text">Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="smooth-content">
+
+            <div class="main-box main-bg ontop">
+
+                <header class="header-freelancer full-height bord-thin-bottom valign position-re" data-overlay-dark="5"
+                    data-scroll-index="0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="caption">
+                                    <h6 class="fw-400 mb-15">Hello <span class="icon-img-30"><img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751132166/hi_dra1ts.png" alt=""></span> , I'm Chaitra.
+                                    </h6>
+                                    <h1 class="fz-60">I Design, Develop & Elevate Brands.</h1>
+                                    <div class="row mt-50">
+                                        <div class="col-lg-3 cal-act order2">
+                                            <a href="#0" data-scroll-nav="3" class="butn-circle d-flex align-items-center text-center">
+                                                <div class="full-width">
+                                                    <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></span>
+                                                    <span class="full-width">View Works</span>
+                                                </div>
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751132236/circle-star_buqaiq.svg" alt=""
+                                                    class="circle-star">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-8 offset-lg-1 valign order1 md-mb50">
+                                            <p class="fz-16">I help brands tell their story through thoughtful design and user-centric experiences.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-img" data-background="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751451856/jik5pskvwsehhrsn29sn.png"></div>
+                </header>
+
+                <main class="position-re">
+
+                    <section class="serv-marq bord-thin-bottom">
+                        <div class="container-fluid ontop sub-bg rest pt-20 pb-20">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-marq light-text">
+                                        <div class="slide-har st1">
+                                            <div class="box non-strok">
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>UI-UX Experience</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Web Development</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span></h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Product Design</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span></h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                            <div class="box non-strok">
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>UI-UX Experience</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Web Development</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span></h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Product Design</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span></h4>
+                                                </div>
+                                                <div class="item">
+                                                    <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                        <span class="fz-50 ml-50 stroke icon">*</span>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="serv-box section-padding" data-scroll-index="1">
+                        <div class="container">
+                            <div class="sec-lg-head mb-80">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="position-re">
+                                            <h6 class="dot-titl-non mb-10 wow fadeIn">Featured Services</h6>
+                                            <h2 class="fz-50 d-rotate wow">
+                                                <span class="rotate-text">Services</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="serv-item d-flex mb-30 radius-10 wow fadeIn" data-wow-delay=".3s">
+                                        <div class="icon-img-80">
+                                            <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236716/everrlkqt5i1rwcaw3oc.png" alt="">
+                                        </div>
+                                        <div class="ml-60">
+                                            <h5 class="mb-15">Brand Strategy</h5>
+                                            <p>Building unique brand identities that make you stand out in a crowded market.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="serv-item d-flex mb-30 radius-10 wow fadeIn" data-wow-delay=".6s">
+                                        <div class="icon-img-80">
+                                            <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236738/icl4vrw7yntvrdltlsin.png" alt="">
+                                        </div>
+                                        <div class="ml-60">
+                                            <h5 class="mb-15">Social Media Marketing</h5>
+                                            <p>Designing creative, data-driven campaigns to grow your digital presence.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="serv-item d-flex radius-10 md-mb30 wow fadeIn" data-wow-delay=".9s">
+                                        <div class="icon-img-80">
+                                            <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236716/everrlkqt5i1rwcaw3oc.png" alt="">
+                                        </div>
+                                        <div class="ml-60">
+                                            <h5 class="mb-15">UX/UI Design</h5>
+                                            <p>Crafting seamless and intuitive user experiences with a focus on detail and innovation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="serv-item d-flex radius-10 wow fadeIn" data-wow-delay="1.2s">
+                                        <div class="icon-img-80">
+                                            <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236738/icl4vrw7yntvrdltlsin.png" alt="">
+                                        </div>
+                                        <div class="ml-60">
+                                            <h5 class="mb-15">Website/App Development</h5>
+                                            <p>Designing and developing modern, high-performing websites and applications.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="intro-img-parlx section-padding pb-0 sub-bg" data-scroll-index="2">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5 valign md-hide">
+                                    <h2 class="max-text" data-text="A Full-Stack Developer & Visual Designer">A Full-Stack Developer & Visual Designer</h2>
+                                </div>
+                                <div class="col-lg-3 order2">
+                                    <div class="img">
+                                        <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751451891/vrfzxkewjry9wxcrg0rg.png" alt="">
+                                        <!-- <span class="star-shape">
+                                            <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751132170/star-shape_nul5nb.png" alt="">
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 valign order1">
+                                    <div class="text-qoute">
+                                        <span class="exp mb-30 main-bg">10+ Years Experience</span>
+                                        <p>I specialize in Frontend & Backend Development, Branding, and SEO to help businesses grow with powerful, user-focused solutions. I build seamless web experiences, design impactful brand identities, and ensure your digital presence is both beautiful and discoverable.</p>
+                                        <!-- <div class="stauts mt-50">
+                                            <div class="item d-flex align-items-center">
+                                                <h2 class="mr-20">12k</h2>
+                                                <p class="fz-14">Happy Users <br> Around World</p>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="portfolio clasic section-padding" data-scroll-index="3">
+                        <div class="container">
+                            <div class="sec-lg-head mb-50">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <div class="position-re">
+                                            <h6 class="dot-titl-non mb-10 fadeIn">Portfolio</h6>
+                                            <h2 class="fz-50 d-rotate wow">
+                                                <span class="rotate-text">Selected Works</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5 d-flex align-items-center">
+                                        <div class="full-width d-flex justify-content-end justify-end">
+                                            <div class="vew-all">
+                                                <a href="https://www.behance.net/thegeekscript" target="_blank">View All Works
+                                                    <span>
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="item mt-30">
+                                        <div class="o-hidden">
+                                            <div class="img imago wow">
+                                                <img src="assets/imgs/freelancer/works/1.jpg" alt="" class="radius-10">
+                                                <a href="project-details1.html" class="tag">
+                                                    <span>Branding</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
+                                            <div>
+                                                <h6 class="line-height-1"><a href="project-details1.html">GeekFolio
+                                                        Architecture</a></h6>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <p class="fz-14">© 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="item mt-30">
+                                        <div class="o-hidden">
+                                            <div class="img imago wow">
+                                                <img src="assets/imgs/freelancer/works/2.jpg" alt="" class="radius-10">
+                                                <a href="project-details1.html" class="tag">
+                                                    <span>Branding</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
+                                            <div>
+                                                <h6 class="line-height-1"><a href="project-details1.html">Luxury Modern
+                                                        Chair</a></h6>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <p class="fz-14">© 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="item mt-30">
+                                        <div class="o-hidden">
+                                            <div class="img imago wow">
+                                                <img src="assets/imgs/freelancer/works/3.jpg" alt="" class="radius-10">
+                                                <a href="project-details1.html" class="tag">
+                                                    <span>Branding</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
+                                            <div>
+                                                <h6 class="line-height-1"><a href="project-details1.html">Partiner
+                                                        BPO</a>
+                                                </h6>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <p class="fz-14">© 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="item mt-30">
+                                        <div class="o-hidden">
+                                            <div class="img imago wow">
+                                                <img src="assets/imgs/freelancer/works/4.jpg" alt="" class="radius-10">
+                                                <a href="project-details1.html" class="tag">
+                                                    <span>Branding</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
+                                            <div>
+                                                <h6 class="line-height-1"><a href="project-details1.html">From our
+                                                        gallery</a></h6>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <p class="fz-14">© 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="item mt-30">
+                                        <div class="o-hidden">
+                                            <div class="img imago wow">
+                                                <img src="assets/imgs/freelancer/works/5.jpg" alt="" class="radius-10">
+                                                <a href="project-details1.html" class="tag">
+                                                    <span>Branding</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
+                                            <div>
+                                                <h6 class="line-height-1"><a href="project-details1.html">Astra Brand
+                                                        Identity</a></h6>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <p class="fz-14">© 2023</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="skills-exp section-padding sub-bg" data-scroll-index="4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="sec-lg-head mb-80">
+                                        <div class="position-re">
+                                            <h6 class="dot-titl-non mb-10 wow fadeIn">Skills & Experience</h6>
+                                            <h2 class="fz-50 d-rotate wow">
+                                                <span class="rotate-text">My Experience</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item d-flex justify-content-between md-mb50">
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1751131386/laravel_x72ijv.png" alt="Laravel Developer">
+                                            </div>
+                                            <span class="mt-15">Laravel</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237168/gbrlvnzomw0eqyzpyp23.png" alt="Codeigniter Developer">
+                                            </div>
+                                            <span class="mt-15">Codeigniter</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237234/enrxp9989gunepdkay0p.png" alt="Magento Developer">
+                                            </div>
+                                            <span class="mt-15">Magento</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237251/eqnfgcneilj1r11udzwv.png" alt="WordPress Developer">
+                                            </div>
+                                            <span class="mt-15">WordPress</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item d-flex justify-content-between md-mb50 mt-50">
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237215/vupjhkmzs0roowlc4fz7.png" alt="Flutter Developer">
+                                            </div>
+                                            <span class="mt-15">Flutter</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237201/fduddxx6mjuprq2g8kqu.png" alt="Figma Designer">
+                                            </div>
+                                            <span class="mt-15">Figma</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237247/e6ppdeel9z4qtuiofx3i.png" alt="Webflow Designer">
+                                            </div>
+                                            <span class="mt-15">Webflow</span>
+                                        </div>
+                                        <div class="item text-center">
+                                            <div class="icon-img-60 m-auto">
+                                                <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749237153/nwdjzkkjjqb9npepx8dy.png" alt="Adobe CC Designer">
+                                            </div>
+                                            <span class="mt-15">Adobe CC</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 offset-lg-1 valign">
+                                    <div class="exp-items full-width">
+                                        <div class="item d-flex pb-30 pt-30 mb-30 bord-thin-top bord-thin-bottom">
+                                            <div class="title">
+                                                <h6>Backend Development</h6>
+                                                <p class="fz-12">Building powerful APIs and scalable web apps.</p>
+                                            </div>
+                                            <div class="date ml-auto text-right">
+                                                <p class="fz-12">2014 - <?= date('Y') ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="item d-flex pb-30 mb-30 bord-thin-bottom">
+                                            <div class="title">
+                                                <h6>Frontend Development</h6>
+                                                <p class="fz-12">Crafting responsive and interactive user interfaces.</p>
+                                            </div>
+                                            <div class="date ml-auto text-right">
+                                                <p class="fz-12">2014 - <?= date('Y') ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="item d-flex pb-30 mb-30 bord-thin-bottom">
+                                            <div class="title">
+                                                <h6>Graphic Designing</h6>
+                                                <p class="fz-12">Creating visually appealing and brand-focused designs.</p>
+                                            </div>
+                                            <div class="date ml-auto text-right">
+                                                <p class="fz-12">2018 - <?= date('Y') ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="item d-flex pb-30 mb-30 bord-thin-bottom">
+                                            <div class="title">
+                                                <h6>App Development</h6>
+                                                <p class="fz-12">Developing smooth, user-friendly mobile applications.</p>
+                                            </div>
+                                            <div class="date ml-auto text-right">
+                                                <p class="fz-12">2020 - <?= date('Y') ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="item d-flex pb-30 bord-thin-bottom">
+                                            <div class="title">
+                                                <h6>Digital Marketing Expert</h6>
+                                                <p class="fz-12">Delivering growth-focused marketing strategies.</p>
+                                            </div>
+                                            <div class="date ml-auto text-right">
+                                                <p class="fz-12">2013 - <?= date('Y') ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="testim-crv section-padding" data-scroll-index="5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4 valign">
+                                    <div class="sec-lg-head md-mb80">
+                                        <div class="position-re">
+                                            <h6 class="dot-titl-non mb-10 wow fadeIn">What Clients Says?</h6>
+                                            <h2 class="fz-50 d-rotate wow">
+                                                <span class="rotate-text">Testimonials</span>
+                                            </h2>
+                                        </div>
+                                        <div class="swiper-controls testim-controls arrow-out d-flex mt-50">
+                                            <div class="swiper-button-prev">
+                                                <span class="left">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.2031 10.3281L11.5781 15.9531C11.535 15.9961 11.4839 16.0303 11.4276 16.0536C11.3713 16.077 11.3109 16.089 11.25 16.089C11.1891 16.089 11.1287 16.077 11.0724 16.0536C11.0161 16.0303 10.965 15.9961 10.9219 15.9531C10.8788 15.91 10.8446 15.8588 10.8213 15.8025C10.798 15.7462 10.786 15.6859 10.786 15.6249C10.786 15.564 10.798 15.5036 10.8213 15.4473C10.8446 15.391 10.8788 15.3399 10.9219 15.2968L15.7422 10.4687H3.125C3.00068 10.4687 2.88145 10.4193 2.79354 10.3314C2.70564 10.2435 2.65625 10.1242 2.65625 9.99993C2.65625 9.87561 2.70564 9.75638 2.79354 9.66847C2.88145 9.58056 3.00068 9.53118 3.125 9.53118H15.7422L10.9219 4.70305C10.8349 4.61603 10.786 4.498 10.786 4.37493C10.786 4.25186 10.8349 4.13383 10.9219 4.0468C11.0089 3.95978 11.1269 3.91089 11.25 3.91089C11.3731 3.91089 11.4911 3.95978 11.5781 4.0468L17.2031 9.6718C17.2476 9.71412 17.2829 9.76503 17.3071 9.82143C17.3313 9.87784 17.3438 9.93856 17.3438 9.99993C17.3438 10.0613 17.3313 10.122 17.3071 10.1784C17.2829 10.2348 17.2476 10.2857 17.2031 10.3281Z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="swiper-button-next ml-50">
+                                                <span class="right">
+                                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M17.2031 10.3281L11.5781 15.9531C11.535 15.9961 11.4839 16.0303 11.4276 16.0536C11.3713 16.077 11.3109 16.089 11.25 16.089C11.1891 16.089 11.1287 16.077 11.0724 16.0536C11.0161 16.0303 10.965 15.9961 10.9219 15.9531C10.8788 15.91 10.8446 15.8588 10.8213 15.8025C10.798 15.7462 10.786 15.6859 10.786 15.6249C10.786 15.564 10.798 15.5036 10.8213 15.4473C10.8446 15.391 10.8788 15.3399 10.9219 15.2968L15.7422 10.4687H3.125C3.00068 10.4687 2.88145 10.4193 2.79354 10.3314C2.70564 10.2435 2.65625 10.1242 2.65625 9.99993C2.65625 9.87561 2.70564 9.75638 2.79354 9.66847C2.88145 9.58056 3.00068 9.53118 3.125 9.53118H15.7422L10.9219 4.70305C10.8349 4.61603 10.786 4.498 10.786 4.37493C10.786 4.25186 10.8349 4.13383 10.9219 4.0468C11.0089 3.95978 11.1269 3.91089 11.25 3.91089C11.3731 3.91089 11.4911 3.95978 11.5781 4.0468L17.2031 9.6718C17.2476 9.71412 17.2829 9.76503 17.3071 9.82143C17.3313 9.87784 17.3438 9.93856 17.3438 9.99993C17.3438 10.0613 17.3313 10.122 17.3071 10.1784C17.2829 10.2348 17.2476 10.2857 17.2031 10.3281Z"
+                                                            fill="currentColor"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="testim-swiper2" data-carousel="swiper" data-items="2" data-loop="true"
+                                        data-space="30">
+                                        <div id="content-carousel-container-unq-testim" class="swiper-container"
+                                            data-swiper="container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="cont mb-40">
+                                                            <div class="rate-stars mb-20 fz-12">
+                                                                <span class="rate main-color">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            <p class="fw-400">We're incredibly impressed with the outstanding work delivered. Their strategic approach and creative prowess elevated our online presence beyond expectations. The results speak for themselves, and we're grateful for a collaborative partner that truly understands our brand.</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div>
+                                                                <div class="img circle-60">
+                                                                    <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236954/frjlbt4piust6zhipgej.jpg" alt="Website design in mumbai" class="circle-img">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-30">
+                                                                <div class="info">
+                                                                    <h6 class="fz-16">Mr. Vishal Mehta</h6>
+                                                                    <span class="opacity-7 sub-title">Owner of Pizzaria, Mumbai</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="cont mb-40">
+                                                            <div class="rate-stars mb-20 fz-12">
+                                                                <span class="rate main-color">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            <p class="fw-400">Kudos for the exceptional work! Tailored approach and attention to detail resulted in a digital marketing strategy that not only engaged our target audience but also delivered measurable results.</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div>
+                                                                <div class="img circle-60">
+                                                                    <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236954/frjlbt4piust6zhipgej.jpg" alt="Website design in mumbai" class="circle-img">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-30">
+                                                                <div class="info">
+                                                                    <h6 class="fz-16">Deepak Mane</h6>
+                                                                    <span class="opacity-7 sub-title">Owner of D's Salon, Mumbai</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="cont mb-40">
+                                                            <div class="rate-stars mb-20 fz-12">
+                                                                <span class="rate main-color">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            <p class="fw-400">I can't praise enough for the incredible work. The expertise and innovative approach transformed our digital presence, resulting in a significant boost in brand visibility and engagement. The dedication, from concept to execution, made the entire process seamless. We're grateful for the outstanding partnership and impactful results.</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div>
+                                                                <div class="img circle-60">
+                                                                    <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236957/jn15jfsuf89ntvg984wk.jpg" alt="clientale" class="circle-img">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-30">
+                                                                <div class="info">
+                                                                    <h6 class="fz-16">Jinal Mehta</h6>
+                                                                    <span class="opacity-7 sub-title">Ceo</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="cont mb-40">
+                                                            <div class="rate-stars mb-20 fz-12">
+                                                                <span class="rate main-color">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            <p class="fw-400">Hats off for the outstanding efforts! The strategic insights and creative solutions have not only revamped our online strategy but also generated tangible results. The commitment to excellence and open communication makes a standout choice for anyone seeking a top-tier digital marketing partner. Thanks for going above and beyond!</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div>
+                                                                <div class="img circle-60">
+                                                                    <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236954/frjlbt4piust6zhipgej.jpg" alt="what clients say" class="circle-img">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-30">
+                                                                <div class="info">
+                                                                    <h6 class="fz-16">Jeet Jethmalani</h6>
+                                                                    <span class="opacity-7 sub-title">Founder</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="cont mb-40">
+                                                            <div class="rate-stars mb-20 fz-12">
+                                                                <span class="rate main-color">
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                    <i class="fas fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            <p class="fw-400">I am delighted to share my experience with Chaitra. The expertise in digital marketing is truly exceptional. From the initial consultation to the final results, she demonstrated a deep understanding of our goals and a commitment to delivering impactful solutions. Working with Chaitra is more than a professional collaboration; it's a partnership built on trust, creativity, and results. Highly recommend!</p>
+                                                        </div>
+                                                        <div class="d-flex align-items-center">
+                                                            <div>
+                                                                <div class="img circle-60">
+                                                                    <img src="https://res.cloudinary.com/drpjgfnsi/image/upload/v1749236957/jn15jfsuf89ntvg984wk.jpg" alt="clients and testimonials" class="circle-img">
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-30">
+                                                                <div class="info">
+                                                                    <h6 class="fz-16">Sheetal Sapan</h6>
+                                                                    <span class="opacity-7 sub-title">Astrologer</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            <section class="contact-crev section-padding" data-scroll-index="7">
+                <div class="contact-container">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="sec-lg-head md-mb80">
+                                    <h6 class="dot-titl-non mb-10 wow fadeIn">Get In Touch</h6>
+                                    <h2 class="fz-50 d-rotate wow">
+                                        <span class="rotate-text">Let's make your brand brilliant!</span>
+                                    </h2>
+                                    <p class="fz-15 mt-10 wow fadeIn">If you would like to work with me or just want to get in touch, I'd love to hear from you!</p>
+                                    <p class="fz-15 mt-10 wow fadeIn">Location: Dubai & Mumbai</p>
+                                    <p class="fz-15 mt-10 wow fadeIn">Email Id: <a href="mailto:web.chaitra@gmail.com" rel="nofollow">web.chaitra@gmail.com</a></p>
+                                    <div class="phone fz-30 fw-600 mt-30 underline wow fadeIn">
+                                        <a href="tel:+918454099091" rel="nofollow">+91 8454 0990 91</a>
+                                    </div>
+                                    <ul class="rest social-text d-flex mt-60">
+                                        <li class="mr-30">
+                                            <a href="https://www.behance.net/thegeekscript" target="_blank" class="hover-this"><span class="hover-anim">Behance</span></a>
+                                        </li>
+                                        <li class="mr-30">
+                                            <a href="https://github.com/TheGeekScript" target="_blank" class="hover-this"><span class="hover-anim">Github</span></a>
+                                        </li>
+                                        <li class="mr-30">
+                                            <a href="https://www.linkedin.com/in/chaitraacharekar/" target="_blank" class="hover-this"><span class="hover-anim">LinkedIn</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 offset-lg-1 valign">
+                                <div class="full-width">
+                                    <form id="contact-form" method="post" action="https://ui-themez.smartinnovates.net/items/geekfolio/dark/contact.php">
+
+                                        <div class="messages"></div>
+
+                                        <div class="controls row">
+
+                                            <div class="col-12">
+                                                <div class="form-group mb-30">
+                                                    <input type="text" name="name" placeholder="Full Name">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input type="email" name="email" placeholder="Email" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group mb-30">
+                                                    <input type="text" name="phone" placeholder="Mobile" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <textarea name="message" placeholder="Message" rows="4" required="required"></textarea>
+                                                </div>
+                                                <div class="mt-30">
+                                                    <button type="submit" class="butn butn-full butn-bord radius-30">
+                                                        <span class="text">Let's Talk</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </main>
+            <footer class="sub-bg">
+                <div class="sub-footer pt-40 pb-40 bord-thin-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="logo">
+                                    <a href="index.php">>_thegeekscript</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="copyright d-flex">
+                                    <div class="ml-auto">
+                                        <p class="fz-13">© 2014 - <?= date('Y') ?> All Rights Reserved.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/smoother-script.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
